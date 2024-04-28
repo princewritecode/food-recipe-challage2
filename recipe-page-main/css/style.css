@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+body {
+  background-color: rgb(243, 229, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  max-width: 30%;
+  min-width: 50%;
+  background-color: white;
+  border-radius: 1rem;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 95%;
+  height: auto;
+  border-radius: 1rem;
+}
+.main,
+img,
+.list-item,
+.ingredients-list,
+.dish-info,
+.instruction,
+.nutrition {
+  margin: 10px;
+}
+.list-item {
+  background-color: #fff7fb;
+  padding: 1rem;
+}
+.preperation {
+  color: #79284f;
+}
+.preperation,
+.ingredients-list h3,
+.dish-info h2,
+.instruction h3,
+.nutrition h3 {
+  font-family: "Young Serif", serif;
+  color: #79284f;
+}
