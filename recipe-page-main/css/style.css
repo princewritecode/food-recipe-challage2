@@ -44,3 +44,12 @@ img,
   font-family: "Young Serif", serif;
   color: #79284f;
 }
+
+.table-info {
+  display: flex;
+  justify-content: center;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 7rem 1rem;
+}
